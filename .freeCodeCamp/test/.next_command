@@ -105,3 +105,4 @@ touch salon.sh
 chmod +x salon.sh
 ./salon.sh
 ./salon.sh
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
